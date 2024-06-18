@@ -1,0 +1,23 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:AppApiPhotos.ViewModels"
+             x:Class="AppApiPhotos.Views.ApiPhoto"
+             Title="ApiPhoto">
+    <ContentPage.BindingContext>
+        <vm:ViewModel />
+    </ContentPage.BindingContext>
+    <StackLayout>
+        <ListView ItemsSource="{Binding Posts}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Image Source="{Binding ThumbnailUrl}" HeightRequest="100" />
+                            <Label Text="{Binding Title}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

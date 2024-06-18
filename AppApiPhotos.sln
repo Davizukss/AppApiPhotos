@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppApiPhotos", "AppApiPhotos\AppApiPhotos.csproj", "{FE14BCC5-0AE8-4B46-90A0-0A53AFC70878}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE14BCC5-0AE8-4B46-90A0-0A53AFC70878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE14BCC5-0AE8-4B46-90A0-0A53AFC70878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE14BCC5-0AE8-4B46-90A0-0A53AFC70878}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FE14BCC5-0AE8-4B46-90A0-0A53AFC70878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE14BCC5-0AE8-4B46-90A0-0A53AFC70878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE14BCC5-0AE8-4B46-90A0-0A53AFC70878}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8EAD6C0-2934-489F-B054-3DCF2B3744FD}
+	EndGlobalSection
+EndGlobal
